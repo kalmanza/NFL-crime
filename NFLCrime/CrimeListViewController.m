@@ -6,14 +6,14 @@
 //  Copyright © 2017 Kevin Almanza. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CrimeListViewController.h"
 #import "NFLCrimeService.h"
 
-@interface ViewController ()
+@interface CrimeListViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CrimeListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

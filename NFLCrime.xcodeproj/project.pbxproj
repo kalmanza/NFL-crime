@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		5B2CA2B4C1C89440E5CF4AA0 /* libPods-NFLCrimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C193F2608AF10A19775C28F8 /* libPods-NFLCrimeUITests.a */; };
 		907A6B9270DC4C6B774032DC /* libPods-NFLCrimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6875A741E6CC14B2F63EDC /* libPods-NFLCrimeTests.a */; };
+		B3462C321E9C4A3B00A93AD9 /* NFLCrime.m in Sources */ = {isa = PBXBuildFile; fileRef = B3462C311E9C4A3B00A93AD9 /* NFLCrime.m */; };
+		B3462C351E9C4BD800A93AD9 /* NFLCrimeListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3462C341E9C4BD800A93AD9 /* NFLCrimeListInteractor.m */; };
+		B3C078901E9C4D72000B8401 /* CrimeListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C0788F1E9C4D72000B8401 /* CrimeListPresenter.m */; };
 		B3CFA1961E9C3E6A00F0FFA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA1951E9C3E6A00F0FFA4 /* main.m */; };
 		B3CFA1991E9C3E6A00F0FFA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA1981E9C3E6A00F0FFA4 /* AppDelegate.m */; };
-		B3CFA19C1E9C3E6A00F0FFA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA19B1E9C3E6A00F0FFA4 /* ViewController.m */; };
+		B3CFA19C1E9C3E6A00F0FFA4 /* CrimeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA19B1E9C3E6A00F0FFA4 /* CrimeListViewController.m */; };
 		B3CFA19F1E9C3E6A00F0FFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFA19D1E9C3E6A00F0FFA4 /* Main.storyboard */; };
 		B3CFA1A11E9C3E6A00F0FFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CFA1A01E9C3E6A00F0FFA4 /* Assets.xcassets */; };
 		B3CFA1A41E9C3E6A00F0FFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFA1A21E9C3E6A00F0FFA4 /* LaunchScreen.storyboard */; };
@@ -45,12 +48,18 @@
 		4448FF38F818B575EACD84C4 /* Pods-NFLCrimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrimeTests/Pods-NFLCrimeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		66224E3BAF604790497B3A7E /* Pods-NFLCrime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrime.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrime/Pods-NFLCrime.release.xcconfig"; sourceTree = "<group>"; };
 		712D40DD0521FA988147DC8A /* Pods-NFLCrimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrimeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrimeUITests/Pods-NFLCrimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3462C301E9C4A3B00A93AD9 /* NFLCrime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFLCrime.h; sourceTree = "<group>"; };
+		B3462C311E9C4A3B00A93AD9 /* NFLCrime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFLCrime.m; sourceTree = "<group>"; };
+		B3462C331E9C4BD800A93AD9 /* NFLCrimeListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFLCrimeListInteractor.h; sourceTree = "<group>"; };
+		B3462C341E9C4BD800A93AD9 /* NFLCrimeListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFLCrimeListInteractor.m; sourceTree = "<group>"; };
+		B3C0788E1E9C4D72000B8401 /* CrimeListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrimeListPresenter.h; sourceTree = "<group>"; };
+		B3C0788F1E9C4D72000B8401 /* CrimeListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrimeListPresenter.m; sourceTree = "<group>"; };
 		B3CFA1911E9C3E6A00F0FFA4 /* NFLCrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLCrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CFA1951E9C3E6A00F0FFA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3CFA1971E9C3E6A00F0FFA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3CFA1981E9C3E6A00F0FFA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B3CFA19A1E9C3E6A00F0FFA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B3CFA19B1E9C3E6A00F0FFA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3CFA19A1E9C3E6A00F0FFA4 /* CrimeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrimeListViewController.h; sourceTree = "<group>"; };
+		B3CFA19B1E9C3E6A00F0FFA4 /* CrimeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrimeListViewController.m; sourceTree = "<group>"; };
 		B3CFA19E1E9C3E6A00F0FFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3CFA1A01E9C3E6A00F0FFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3CFA1A31E9C3E6A00F0FFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,6 +118,86 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B30B4D3A1E9C4DE6000AC21D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B3462C361E9C4BE100A93AD9 /* Crime List */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B30B4D3B1E9C4DEF000AC21D /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B30B4D3D1E9C4EB8000AC21D /* View */,
+				B30B4D3C1E9C4DF8000AC21D /* Presenter */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		B30B4D3C1E9C4DF8000AC21D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0788E1E9C4D72000B8401 /* CrimeListPresenter.h */,
+				B3C0788F1E9C4D72000B8401 /* CrimeListPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		B30B4D3D1E9C4EB8000AC21D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFA19A1E9C3E6A00F0FFA4 /* CrimeListViewController.h */,
+				B3CFA19B1E9C3E6A00F0FFA4 /* CrimeListViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B3462C2E1E9C4A1000A93AD9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFA1C71E9C3ED000F0FFA4 /* NFLCrimeService.h */,
+				B3CFA1C81E9C3ED000F0FFA4 /* NFLCrimeService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		B3462C2F1E9C4A2000A93AD9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B3462C2E1E9C4A1000A93AD9 /* Services */,
+				B3462C301E9C4A3B00A93AD9 /* NFLCrime.h */,
+				B3462C311E9C4A3B00A93AD9 /* NFLCrime.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B3462C361E9C4BE100A93AD9 /* Crime List */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0788D1E9C4C94000B8401 /* Application Logic */,
+				B30B4D3B1E9C4DEF000AC21D /* User Interface */,
+			);
+			name = "Crime List";
+			sourceTree = "<group>";
+		};
+		B3C0788C1E9C4C8B000B8401 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B3462C331E9C4BD800A93AD9 /* NFLCrimeListInteractor.h */,
+				B3462C341E9C4BD800A93AD9 /* NFLCrimeListInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		B3C0788D1E9C4C94000B8401 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0788C1E9C4C8B000B8401 /* Interactor */,
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
 		B3CFA1881E9C3E6A00F0FFA4 = {
 			isa = PBXGroup;
 			children = (
@@ -136,15 +225,13 @@
 			children = (
 				B3CFA1971E9C3E6A00F0FFA4 /* AppDelegate.h */,
 				B3CFA1981E9C3E6A00F0FFA4 /* AppDelegate.m */,
-				B3CFA19A1E9C3E6A00F0FFA4 /* ViewController.h */,
-				B3CFA19B1E9C3E6A00F0FFA4 /* ViewController.m */,
 				B3CFA19D1E9C3E6A00F0FFA4 /* Main.storyboard */,
 				B3CFA1A01E9C3E6A00F0FFA4 /* Assets.xcassets */,
 				B3CFA1A21E9C3E6A00F0FFA4 /* LaunchScreen.storyboard */,
 				B3CFA1A51E9C3E6A00F0FFA4 /* Info.plist */,
 				B3CFA1941E9C3E6A00F0FFA4 /* Supporting Files */,
-				B3CFA1C71E9C3ED000F0FFA4 /* NFLCrimeService.h */,
-				B3CFA1C81E9C3ED000F0FFA4 /* NFLCrimeService.m */,
+				B3462C2F1E9C4A2000A93AD9 /* Common */,
+				B30B4D3A1E9C4DE6000AC21D /* Modules */,
 			);
 			path = NFLCrime;
 			sourceTree = "<group>";
@@ -468,9 +555,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3CFA19C1E9C3E6A00F0FFA4 /* ViewController.m in Sources */,
+				B3CFA19C1E9C3E6A00F0FFA4 /* CrimeListViewController.m in Sources */,
 				B3CFA1C91E9C3ED000F0FFA4 /* NFLCrimeService.m in Sources */,
+				B3462C351E9C4BD800A93AD9 /* NFLCrimeListInteractor.m in Sources */,
 				B3CFA1991E9C3E6A00F0FFA4 /* AppDelegate.m in Sources */,
+				B3C078901E9C4D72000B8401 /* CrimeListPresenter.m in Sources */,
+				B3462C321E9C4A3B00A93AD9 /* NFLCrime.m in Sources */,
 				B3CFA1961E9C3E6A00F0FFA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
