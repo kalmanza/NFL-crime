@@ -18,4 +18,6 @@
 
 - (instancetype)initWithNetwork:(AFHTTPSessionManager *)network;
 
+- (void)topCrimesFrom:(NSDate *)fromDate to:(NSDate *)toDate limit:(NSNumber *)limit offset:(NSNumber *)offset completion:(void(^)(NSArray *crimes, NSError *error))completion;
+
 @end

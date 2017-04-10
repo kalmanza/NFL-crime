@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NFLCrimeService.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[NFLCrimeService defaultService] topCrimesFrom:nil to:nil limit:nil offset:nil completion:^(NSArray *crimes, NSError *error) {
+        NSLog(@"%@", crimes);
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
