@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2CA2B4C1C89440E5CF4AA0 /* libPods-NFLCrimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C193F2608AF10A19775C28F8 /* libPods-NFLCrimeUITests.a */; };
+		907A6B9270DC4C6B774032DC /* libPods-NFLCrimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6875A741E6CC14B2F63EDC /* libPods-NFLCrimeTests.a */; };
+		B3CFA1961E9C3E6A00F0FFA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA1951E9C3E6A00F0FFA4 /* main.m */; };
+		B3CFA1991E9C3E6A00F0FFA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA1981E9C3E6A00F0FFA4 /* AppDelegate.m */; };
+		B3CFA19C1E9C3E6A00F0FFA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA19B1E9C3E6A00F0FFA4 /* ViewController.m */; };
+		B3CFA19F1E9C3E6A00F0FFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFA19D1E9C3E6A00F0FFA4 /* Main.storyboard */; };
+		B3CFA1A11E9C3E6A00F0FFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CFA1A01E9C3E6A00F0FFA4 /* Assets.xcassets */; };
+		B3CFA1A41E9C3E6A00F0FFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFA1A21E9C3E6A00F0FFA4 /* LaunchScreen.storyboard */; };
+		B3CFA1AF1E9C3E6A00F0FFA4 /* NFLCrimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA1AE1E9C3E6A00F0FFA4 /* NFLCrimeTests.m */; };
+		B3CFA1BA1E9C3E6A00F0FFA4 /* NFLCrimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA1B91E9C3E6A00F0FFA4 /* NFLCrimeUITests.m */; };
+		B3CFA1C91E9C3ED000F0FFA4 /* NFLCrimeService.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFA1C81E9C3ED000F0FFA4 /* NFLCrimeService.m */; };
+		B98BD39B61A395CC68D588AF /* libPods-NFLCrime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7375EE8BE4472BB30F92515 /* libPods-NFLCrime.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3CFA1AB1E9C3E6A00F0FFA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3CFA1891E9C3E6A00F0FFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3CFA1901E9C3E6A00F0FFA4;
+			remoteInfo = NFLCrime;
+		};
+		B3CFA1B61E9C3E6A00F0FFA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3CFA1891E9C3E6A00F0FFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3CFA1901E9C3E6A00F0FFA4;
+			remoteInfo = NFLCrime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F4682314BD5207A0149B48 /* Pods-NFLCrimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrimeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrimeUITests/Pods-NFLCrimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23EB01351899CF80019AD8F0 /* Pods-NFLCrimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrimeTests/Pods-NFLCrimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F6875A741E6CC14B2F63EDC /* libPods-NFLCrimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFLCrimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4448FF38F818B575EACD84C4 /* Pods-NFLCrimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrimeTests/Pods-NFLCrimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66224E3BAF604790497B3A7E /* Pods-NFLCrime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrime.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrime/Pods-NFLCrime.release.xcconfig"; sourceTree = "<group>"; };
+		712D40DD0521FA988147DC8A /* Pods-NFLCrimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrimeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrimeUITests/Pods-NFLCrimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3CFA1911E9C3E6A00F0FFA4 /* NFLCrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLCrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFA1951E9C3E6A00F0FFA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3CFA1971E9C3E6A00F0FFA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3CFA1981E9C3E6A00F0FFA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3CFA19A1E9C3E6A00F0FFA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3CFA19B1E9C3E6A00F0FFA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3CFA19E1E9C3E6A00F0FFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3CFA1A01E9C3E6A00F0FFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3CFA1A31E9C3E6A00F0FFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3CFA1A51E9C3E6A00F0FFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CFA1AA1E9C3E6A00F0FFA4 /* NFLCrimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFLCrimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFA1AE1E9C3E6A00F0FFA4 /* NFLCrimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFLCrimeTests.m; sourceTree = "<group>"; };
+		B3CFA1B01E9C3E6A00F0FFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CFA1B51E9C3E6A00F0FFA4 /* NFLCrimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFLCrimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFA1B91E9C3E6A00F0FFA4 /* NFLCrimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFLCrimeUITests.m; sourceTree = "<group>"; };
+		B3CFA1BB1E9C3E6A00F0FFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CFA1C71E9C3ED000F0FFA4 /* NFLCrimeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFLCrimeService.h; sourceTree = "<group>"; };
+		B3CFA1C81E9C3ED000F0FFA4 /* NFLCrimeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFLCrimeService.m; sourceTree = "<group>"; };
+		C193F2608AF10A19775C28F8 /* libPods-NFLCrimeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFLCrimeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7375EE8BE4472BB30F92515 /* libPods-NFLCrime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFLCrime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D63D28FB2B4643A1BDBD56 /* Pods-NFLCrime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrime/Pods-NFLCrime.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3CFA18E1E9C3E6A00F0FFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98BD39B61A395CC68D588AF /* libPods-NFLCrime.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFA1A71E9C3E6A00F0FFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907A6B9270DC4C6B774032DC /* libPods-NFLCrimeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFA1B21E9C3E6A00F0FFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2CA2B4C1C89440E5CF4AA0 /* libPods-NFLCrimeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AD2F9459082DA4E68EB00A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2D63D28FB2B4643A1BDBD56 /* Pods-NFLCrime.debug.xcconfig */,
+				66224E3BAF604790497B3A7E /* Pods-NFLCrime.release.xcconfig */,
+				4448FF38F818B575EACD84C4 /* Pods-NFLCrimeTests.debug.xcconfig */,
+				23EB01351899CF80019AD8F0 /* Pods-NFLCrimeTests.release.xcconfig */,
+				712D40DD0521FA988147DC8A /* Pods-NFLCrimeUITests.debug.xcconfig */,
+				05F4682314BD5207A0149B48 /* Pods-NFLCrimeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3CFA1881E9C3E6A00F0FFA4 = {
+			isa = PBXGroup;
+			children = (
+				B3CFA1931E9C3E6A00F0FFA4 /* NFLCrime */,
+				B3CFA1AD1E9C3E6A00F0FFA4 /* NFLCrimeTests */,
+				B3CFA1B81E9C3E6A00F0FFA4 /* NFLCrimeUITests */,
+				B3CFA1921E9C3E6A00F0FFA4 /* Products */,
+				04AD2F9459082DA4E68EB00A /* Pods */,
+				BFCB7CBBE1DD12C18D0D1A0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3CFA1921E9C3E6A00F0FFA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFA1911E9C3E6A00F0FFA4 /* NFLCrime.app */,
+				B3CFA1AA1E9C3E6A00F0FFA4 /* NFLCrimeTests.xctest */,
+				B3CFA1B51E9C3E6A00F0FFA4 /* NFLCrimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3CFA1931E9C3E6A00F0FFA4 /* NFLCrime */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFA1971E9C3E6A00F0FFA4 /* AppDelegate.h */,
+				B3CFA1981E9C3E6A00F0FFA4 /* AppDelegate.m */,
+				B3CFA19A1E9C3E6A00F0FFA4 /* ViewController.h */,
+				B3CFA19B1E9C3E6A00F0FFA4 /* ViewController.m */,
+				B3CFA19D1E9C3E6A00F0FFA4 /* Main.storyboard */,
+				B3CFA1A01E9C3E6A00F0FFA4 /* Assets.xcassets */,
+				B3CFA1A21E9C3E6A00F0FFA4 /* LaunchScreen.storyboard */,
+				B3CFA1A51E9C3E6A00F0FFA4 /* Info.plist */,
+				B3CFA1941E9C3E6A00F0FFA4 /* Supporting Files */,
+				B3CFA1C71E9C3ED000F0FFA4 /* NFLCrimeService.h */,
+				B3CFA1C81E9C3ED000F0FFA4 /* NFLCrimeService.m */,
+			);
+			path = NFLCrime;
+			sourceTree = "<group>";
+		};
+		B3CFA1941E9C3E6A00F0FFA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFA1951E9C3E6A00F0FFA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3CFA1AD1E9C3E6A00F0FFA4 /* NFLCrimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFA1AE1E9C3E6A00F0FFA4 /* NFLCrimeTests.m */,
+				B3CFA1B01E9C3E6A00F0FFA4 /* Info.plist */,
+			);
+			path = NFLCrimeTests;
+			sourceTree = "<group>";
+		};
+		B3CFA1B81E9C3E6A00F0FFA4 /* NFLCrimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFA1B91E9C3E6A00F0FFA4 /* NFLCrimeUITests.m */,
+				B3CFA1BB1E9C3E6A00F0FFA4 /* Info.plist */,
+			);
+			path = NFLCrimeUITests;
+			sourceTree = "<group>";
+		};
+		BFCB7CBBE1DD12C18D0D1A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7375EE8BE4472BB30F92515 /* libPods-NFLCrime.a */,
+				3F6875A741E6CC14B2F63EDC /* libPods-NFLCrimeTests.a */,
+				C193F2608AF10A19775C28F8 /* libPods-NFLCrimeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3CFA1901E9C3E6A00F0FFA4 /* NFLCrime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CFA1BE1E9C3E6A00F0FFA4 /* Build configuration list for PBXNativeTarget "NFLCrime" */;
+			buildPhases = (
+				9ED3E4F99FF6D821F1C59907 /* [CP] Check Pods Manifest.lock */,
+				B3CFA18D1E9C3E6A00F0FFA4 /* Sources */,
+				B3CFA18E1E9C3E6A00F0FFA4 /* Frameworks */,
+				B3CFA18F1E9C3E6A00F0FFA4 /* Resources */,
+				5A369C7189D659AA2F4D3245 /* [CP] Embed Pods Frameworks */,
+				241D96B3F4A0F91CAFA06791 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFLCrime;
+			productName = NFLCrime;
+			productReference = B3CFA1911E9C3E6A00F0FFA4 /* NFLCrime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3CFA1A91E9C3E6A00F0FFA4 /* NFLCrimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CFA1C11E9C3E6A00F0FFA4 /* Build configuration list for PBXNativeTarget "NFLCrimeTests" */;
+			buildPhases = (
+				128DF6468C7B81D6D22559F9 /* [CP] Check Pods Manifest.lock */,
+				B3CFA1A61E9C3E6A00F0FFA4 /* Sources */,
+				B3CFA1A71E9C3E6A00F0FFA4 /* Frameworks */,
+				B3CFA1A81E9C3E6A00F0FFA4 /* Resources */,
+				3038B6182FEE2B4DDFF634E2 /* [CP] Embed Pods Frameworks */,
+				2F13D5F1A66ED50127CABAB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3CFA1AC1E9C3E6A00F0FFA4 /* PBXTargetDependency */,
+			);
+			name = NFLCrimeTests;
+			productName = NFLCrimeTests;
+			productReference = B3CFA1AA1E9C3E6A00F0FFA4 /* NFLCrimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3CFA1B41E9C3E6A00F0FFA4 /* NFLCrimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CFA1C41E9C3E6A00F0FFA4 /* Build configuration list for PBXNativeTarget "NFLCrimeUITests" */;
+			buildPhases = (
+				709E514F391220C675E6CC97 /* [CP] Check Pods Manifest.lock */,
+				B3CFA1B11E9C3E6A00F0FFA4 /* Sources */,
+				B3CFA1B21E9C3E6A00F0FFA4 /* Frameworks */,
+				B3CFA1B31E9C3E6A00F0FFA4 /* Resources */,
+				F03E3E8B7F3B53492CEB361A /* [CP] Embed Pods Frameworks */,
+				015F8AABCBF9C229A8D4256F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3CFA1B71E9C3E6A00F0FFA4 /* PBXTargetDependency */,
+			);
+			name = NFLCrimeUITests;
+			productName = NFLCrimeUITests;
+			productReference = B3CFA1B51E9C3E6A00F0FFA4 /* NFLCrimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3CFA1891E9C3E6A00F0FFA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kevin Almanza";
+				TargetAttributes = {
+					B3CFA1901E9C3E6A00F0FFA4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = LMF7HC7ZMD;
+						ProvisioningStyle = Automatic;
+					};
+					B3CFA1A91E9C3E6A00F0FFA4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = LMF7HC7ZMD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3CFA1901E9C3E6A00F0FFA4;
+					};
+					B3CFA1B41E9C3E6A00F0FFA4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = LMF7HC7ZMD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3CFA1901E9C3E6A00F0FFA4;
+					};
+				};
+			};
+			buildConfigurationList = B3CFA18C1E9C3E6A00F0FFA4 /* Build configuration list for PBXProject "NFLCrime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3CFA1881E9C3E6A00F0FFA4;
+			productRefGroup = B3CFA1921E9C3E6A00F0FFA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3CFA1901E9C3E6A00F0FFA4 /* NFLCrime */,
+				B3CFA1A91E9C3E6A00F0FFA4 /* NFLCrimeTests */,
+				B3CFA1B41E9C3E6A00F0FFA4 /* NFLCrimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3CFA18F1E9C3E6A00F0FFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CFA1A41E9C3E6A00F0FFA4 /* LaunchScreen.storyboard in Resources */,
+				B3CFA1A11E9C3E6A00F0FFA4 /* Assets.xcassets in Resources */,
+				B3CFA19F1E9C3E6A00F0FFA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFA1A81E9C3E6A00F0FFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFA1B31E9C3E6A00F0FFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		015F8AABCBF9C229A8D4256F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLCrimeUITests/Pods-NFLCrimeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		128DF6468C7B81D6D22559F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		241D96B3F4A0F91CAFA06791 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLCrime/Pods-NFLCrime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F13D5F1A66ED50127CABAB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLCrimeTests/Pods-NFLCrimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3038B6182FEE2B4DDFF634E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLCrimeTests/Pods-NFLCrimeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A369C7189D659AA2F4D3245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLCrime/Pods-NFLCrime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709E514F391220C675E6CC97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED3E4F99FF6D821F1C59907 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F03E3E8B7F3B53492CEB361A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLCrimeUITests/Pods-NFLCrimeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3CFA18D1E9C3E6A00F0FFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CFA19C1E9C3E6A00F0FFA4 /* ViewController.m in Sources */,
+				B3CFA1C91E9C3ED000F0FFA4 /* NFLCrimeService.m in Sources */,
+				B3CFA1991E9C3E6A00F0FFA4 /* AppDelegate.m in Sources */,
+				B3CFA1961E9C3E6A00F0FFA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFA1A61E9C3E6A00F0FFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CFA1AF1E9C3E6A00F0FFA4 /* NFLCrimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFA1B11E9C3E6A00F0FFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CFA1BA1E9C3E6A00F0FFA4 /* NFLCrimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3CFA1AC1E9C3E6A00F0FFA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3CFA1901E9C3E6A00F0FFA4 /* NFLCrime */;
+			targetProxy = B3CFA1AB1E9C3E6A00F0FFA4 /* PBXContainerItemProxy */;
+		};
+		B3CFA1B71E9C3E6A00F0FFA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3CFA1901E9C3E6A00F0FFA4 /* NFLCrime */;
+			targetProxy = B3CFA1B61E9C3E6A00F0FFA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3CFA19D1E9C3E6A00F0FFA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3CFA19E1E9C3E6A00F0FFA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3CFA1A21E9C3E6A00F0FFA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3CFA1A31E9C3E6A00F0FFA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3CFA1BC1E9C3E6A00F0FFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3CFA1BD1E9C3E6A00F0FFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3CFA1BF1E9C3E6A00F0FFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D63D28FB2B4643A1BDBD56 /* Pods-NFLCrime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LMF7HC7ZMD;
+				INFOPLIST_FILE = NFLCrime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFLCrime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3CFA1C01E9C3E6A00F0FFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66224E3BAF604790497B3A7E /* Pods-NFLCrime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LMF7HC7ZMD;
+				INFOPLIST_FILE = NFLCrime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFLCrime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3CFA1C21E9C3E6A00F0FFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4448FF38F818B575EACD84C4 /* Pods-NFLCrimeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LMF7HC7ZMD;
+				INFOPLIST_FILE = NFLCrimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFLCrimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFLCrime.app/NFLCrime";
+			};
+			name = Debug;
+		};
+		B3CFA1C31E9C3E6A00F0FFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23EB01351899CF80019AD8F0 /* Pods-NFLCrimeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LMF7HC7ZMD;
+				INFOPLIST_FILE = NFLCrimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFLCrimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFLCrime.app/NFLCrime";
+			};
+			name = Release;
+		};
+		B3CFA1C51E9C3E6A00F0FFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712D40DD0521FA988147DC8A /* Pods-NFLCrimeUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LMF7HC7ZMD;
+				INFOPLIST_FILE = NFLCrimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFLCrimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NFLCrime;
+			};
+			name = Debug;
+		};
+		B3CFA1C61E9C3E6A00F0FFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F4682314BD5207A0149B48 /* Pods-NFLCrimeUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LMF7HC7ZMD;
+				INFOPLIST_FILE = NFLCrimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFLCrimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NFLCrime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3CFA18C1E9C3E6A00F0FFA4 /* Build configuration list for PBXProject "NFLCrime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CFA1BC1E9C3E6A00F0FFA4 /* Debug */,
+				B3CFA1BD1E9C3E6A00F0FFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3CFA1BE1E9C3E6A00F0FFA4 /* Build configuration list for PBXNativeTarget "NFLCrime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CFA1BF1E9C3E6A00F0FFA4 /* Debug */,
+				B3CFA1C01E9C3E6A00F0FFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3CFA1C11E9C3E6A00F0FFA4 /* Build configuration list for PBXNativeTarget "NFLCrimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CFA1C21E9C3E6A00F0FFA4 /* Debug */,
+				B3CFA1C31E9C3E6A00F0FFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3CFA1C41E9C3E6A00F0FFA4 /* Build configuration list for PBXNativeTarget "NFLCrimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CFA1C51E9C3E6A00F0FFA4 /* Debug */,
+				B3CFA1C61E9C3E6A00F0FFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3CFA1891E9C3E6A00F0FFA4 /* Project object */;
+}
