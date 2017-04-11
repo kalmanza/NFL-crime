@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NFLCrimeDisplayData.h"
 
 @class NFLCrimeService;
 
 @protocol NFLCrimeListInteractorDelegate <NSObject>
 
-- (void)didGetListOfCrimes:(NSArray *)crimes;
+- (void)didGetListOfCrimes:(NSArray<NFLCrimeDisplayData *> *)crimes;
 
 @end
 
@@ -20,6 +21,8 @@
 
 @property (strong, nonatomic) NFLCrimeService *crimeService;
 @property (strong, nonatomic) id<NFLCrimeListInteractorDelegate> delegate;
+
+- (instancetype)initWithCrimeService:(NFLCrimeService *)service delegate:(id<NFLCrimeListInteractorDelegate>)delegate;
 
 - (void)getListOfCrimes;
 

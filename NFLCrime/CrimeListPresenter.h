@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NFLCrimeListInteractor.h"
 
-@class NFLCrimeListInteractor;
+@class NFLCrimeListInteractor, CrimeListViewController;
 
-@interface CrimeListPresenter : NSObject
+@interface CrimeListPresenter : NSObject <NFLCrimeListInteractorDelegate>
 
+@property (weak, nonatomic) CrimeListViewController *crimeListController;
 @property (strong, nonatomic) NFLCrimeListInteractor *crimeListInteractor;
 
 - (void)updateCrimeList;

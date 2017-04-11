@@ -8,8 +8,9 @@
 
 #import "CrimeListPresenter.h"
 #import "NFLCrimeListInteractor.h"
+#import "CrimeListViewController.h"
 
-@interface CrimeListPresenter () <NFLCrimeListInteractorDelegate>
+@interface CrimeListPresenter () 
 
 @end
 
@@ -17,12 +18,13 @@
 
 - (void)updateCrimeList
 {
-    
+    [self.crimeListInteractor getListOfCrimes];
 }
 
-- (void)didGetListOfCrimes:(NSArray *)crimes
+- (void)didGetListOfCrimes:(NSArray<NFLCrimeDisplayData *> *)crimes
 {
-    
+    [self.crimeListController setCrimes:crimes];
+    [self.crimeListController reloadTableView];
 }
 
 @end

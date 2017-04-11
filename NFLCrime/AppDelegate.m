@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "CrimeListViewController.h"
+#import "CrimeListPresenter.h"
+#import "NFLCrimeListInteractor.h"
+#import "NFLCrimeService.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UINavigationController *rootViewController = (UINavigationController *)[self.window rootViewController];
+    CrimeListViewController *crimeListController = (CrimeListViewController *)[rootViewController topViewController];
+    NFLCrimeService *crimeService = [NFLCrimeService defaultService];
+    CrimeListPresenter *presenter = [[CrimeListPresenter alloc] init];
+    presenter.crimeListController = crimeListController;
+    NFLCrimeListInteractor *crimeListInteractor = [[NFLCrimeListInteractor alloc] initWithCrimeService:crimeService delegate:presenter];
+    presenter.crimeListInteractor = crimeListInteractor;
+    crimeListController.presenter = presenter;
     return YES;
 }
 

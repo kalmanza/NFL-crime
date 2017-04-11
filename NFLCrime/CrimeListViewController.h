@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class CrimeListPresenter, NFLCrimeDisplayData;
+
 @interface CrimeListViewController : UIViewController
 
+@property (strong, nonatomic) CrimeListPresenter *presenter;
+@property (strong, nonatomic) NSArray<NFLCrimeDisplayData *> *crimes;
+
+- (void)reloadTableView;
 
 @end
 
