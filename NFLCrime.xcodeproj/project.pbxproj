@@ -10,6 +10,7 @@
 		5B2CA2B4C1C89440E5CF4AA0 /* libPods-NFLCrimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C193F2608AF10A19775C28F8 /* libPods-NFLCrimeUITests.a */; };
 		907A6B9270DC4C6B774032DC /* libPods-NFLCrimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6875A741E6CC14B2F63EDC /* libPods-NFLCrimeTests.a */; };
 		B30B4D401E9C5538000AC21D /* NFLCrimeDisplayData.m in Sources */ = {isa = PBXBuildFile; fileRef = B30B4D3F1E9C5538000AC21D /* NFLCrimeDisplayData.m */; };
+		B30B4D441E9C6520000AC21D /* NFLCrimeListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B30B4D431E9C6520000AC21D /* NFLCrimeListTableViewCell.m */; };
 		B3462C321E9C4A3B00A93AD9 /* NFLCrime.m in Sources */ = {isa = PBXBuildFile; fileRef = B3462C311E9C4A3B00A93AD9 /* NFLCrime.m */; };
 		B3462C351E9C4BD800A93AD9 /* NFLCrimeListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3462C341E9C4BD800A93AD9 /* NFLCrimeListInteractor.m */; };
 		B3C078901E9C4D72000B8401 /* CrimeListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C0788F1E9C4D72000B8401 /* CrimeListPresenter.m */; };
@@ -51,6 +52,8 @@
 		712D40DD0521FA988147DC8A /* Pods-NFLCrimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLCrimeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLCrimeUITests/Pods-NFLCrimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B30B4D3E1E9C5538000AC21D /* NFLCrimeDisplayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFLCrimeDisplayData.h; sourceTree = "<group>"; };
 		B30B4D3F1E9C5538000AC21D /* NFLCrimeDisplayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFLCrimeDisplayData.m; sourceTree = "<group>"; };
+		B30B4D421E9C6520000AC21D /* NFLCrimeListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFLCrimeListTableViewCell.h; sourceTree = "<group>"; };
+		B30B4D431E9C6520000AC21D /* NFLCrimeListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFLCrimeListTableViewCell.m; sourceTree = "<group>"; };
 		B3462C301E9C4A3B00A93AD9 /* NFLCrime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFLCrime.h; sourceTree = "<group>"; };
 		B3462C311E9C4A3B00A93AD9 /* NFLCrime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFLCrime.m; sourceTree = "<group>"; };
 		B3462C331E9C4BD800A93AD9 /* NFLCrimeListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFLCrimeListInteractor.h; sourceTree = "<group>"; };
@@ -154,8 +157,19 @@
 			children = (
 				B3CFA19A1E9C3E6A00F0FFA4 /* CrimeListViewController.h */,
 				B3CFA19B1E9C3E6A00F0FFA4 /* CrimeListViewController.m */,
+				B30B4D421E9C6520000AC21D /* NFLCrimeListTableViewCell.h */,
+				B30B4D431E9C6520000AC21D /* NFLCrimeListTableViewCell.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		B30B4D411E9C5C7C000AC21D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B3462C301E9C4A3B00A93AD9 /* NFLCrime.h */,
+				B3462C311E9C4A3B00A93AD9 /* NFLCrime.m */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 		B3462C2E1E9C4A1000A93AD9 /* Services */ = {
@@ -171,8 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				B3462C2E1E9C4A1000A93AD9 /* Services */,
-				B3462C301E9C4A3B00A93AD9 /* NFLCrime.h */,
-				B3462C311E9C4A3B00A93AD9 /* NFLCrime.m */,
+				B30B4D411E9C5C7C000AC21D /* Entities */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -562,6 +575,7 @@
 			files = (
 				B3CFA19C1E9C3E6A00F0FFA4 /* CrimeListViewController.m in Sources */,
 				B3CFA1C91E9C3ED000F0FFA4 /* NFLCrimeService.m in Sources */,
+				B30B4D441E9C6520000AC21D /* NFLCrimeListTableViewCell.m in Sources */,
 				B3462C351E9C4BD800A93AD9 /* NFLCrimeListInteractor.m in Sources */,
 				B30B4D401E9C5538000AC21D /* NFLCrimeDisplayData.m in Sources */,
 				B3CFA1991E9C3E6A00F0FFA4 /* AppDelegate.m in Sources */,

@@ -9,6 +9,7 @@
 #import "CrimeListViewController.h"
 #import "NFLCrimeService.h"
 #import "CrimeListPresenter.h"
+#import "NFLCrimeListTableViewCell.h"
 
 static NSString * const kCrimeListCellIdentifier = @"kCrimeListCellIdentifier";
 
@@ -28,7 +29,7 @@ static NSString * const kCrimeListCellIdentifier = @"kCrimeListCellIdentifier";
 - (void)configureTableView:(UITableView *)tableView
 {
     [tableView setDataSource:self];
-    [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kCrimeListCellIdentifier];
+    [tableView registerClass:[NFLCrimeListTableViewCell class] forCellReuseIdentifier:kCrimeListCellIdentifier];
 }
 
 
